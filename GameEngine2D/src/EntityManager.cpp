@@ -1,6 +1,6 @@
 #include "EntityManager.h"
 #include <iostream>
-#include "ColliderComponent.h"
+#include "Components/ColliderComponent.h"
 #include "Collision.h"
 
 void EntityManager::ClearData()

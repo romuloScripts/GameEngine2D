@@ -1,9 +1,9 @@
 #pragma once
 
 #include <SDL.h>
-#include "EntityManager.h"
-#include "AssetManager.h"
-#include "../lib/glm/glm.hpp"
+#include "../EntityManager.h"
+#include "../AssetManager.h"
+#include "../../lib/glm/glm.hpp"
 
 class TileComponent: public Component
 {

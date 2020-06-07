@@ -1,5 +1,5 @@
 #include "Entity.h"
-#include "Component.h"
+#include "Components/Component.h"
 #include <iostream>
 
 Entity::Entity(EntityManager & manager): manager(manager)

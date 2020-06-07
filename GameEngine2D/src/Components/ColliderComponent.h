@@ -2,8 +2,8 @@
 
 
 #include <SDL.h>
-#include "Game.h"
-#include "EntityManager.h"
+#include "../Game.h"
+#include "../EntityManager.h"
 #include "TransformComponent.h"
 
 class ColliderComponent : public Component

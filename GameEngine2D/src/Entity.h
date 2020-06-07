@@ -6,7 +6,7 @@
 #include<iostream>
 #include "./Constants.h"
 #include "EntityManager.h"
-#include "Component.h"
+#include "Components/Component.h"
 
 class Component;
 class EntityManager;

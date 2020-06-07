@@ -1,8 +1,8 @@
 #pragma once
 
 
-#include "../lib/glm/glm.hpp"
-#include "EntityManager.h"
+#include "../../lib/glm/glm.hpp"
+#include "../EntityManager.h"
 #include "TransformComponent.h"
 
 class ProjectileEmitterComponent : public Component

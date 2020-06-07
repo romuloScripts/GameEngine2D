@@ -1,7 +1,7 @@
 #include <fstream>
 #include "Game.h"
 #include "EntityManager.h"
-#include "TileComponent.h"
+#include "Components/TileComponent.h"
 #include "Map.h"
 
 extern EntityManager manager;

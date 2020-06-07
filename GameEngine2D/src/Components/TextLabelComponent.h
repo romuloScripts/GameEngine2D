@@ -2,10 +2,10 @@
 
 #include <SDL.h>
 #include <SDL_ttf.h>
-#include "FontManager.h"
-#include "EntityManager.h"
-#include "AssetManager.h"
-#include "Game.h"
+#include "../FontManager.h"
+#include "../EntityManager.h"
+#include "../AssetManager.h"
+#include "../Game.h"
 
 class TextLabelComponent : public Component
 {

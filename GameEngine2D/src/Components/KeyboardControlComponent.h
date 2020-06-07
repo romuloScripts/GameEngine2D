@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Game.h"
-#include "EntityManager.h"
+#include "../Game.h"
+#include "../EntityManager.h"
 #include "TransformComponent.h"
 #include "SpriteComponent.h"
 

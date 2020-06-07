@@ -6,7 +6,7 @@
 #include "../lib/Lua535/include/sol.hpp"
 #include "EntityManager.h"
 #include "Entity.h"
-#include "Component.h"
+#include "Components/Component.h"
 
 class AssetManager;
 

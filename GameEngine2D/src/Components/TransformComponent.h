@@ -1,9 +1,9 @@
 #pragma once
 
-#include "EntityManager.h"
-#include "../lib/glm/glm.hpp"
+#include "../EntityManager.h"
+#include "../../lib/glm/glm.hpp"
 #include <SDL.h>
-#include "Game.h"
+#include "../Game.h"
 
 class TransformComponent: public Component
 {
@@ -32,14 +32,7 @@ class TransformComponent: public Component
 		}
 
 		void Render() override {
-			/*SDL_Rect tranformRectangle = {
-				(int)position.x,
-				(int)position.y,
-				width,
-				height
-			};
-			SDL_SetRenderDrawColor(Game::renderer, 255, 255, 255, 255);
-			SDL_RenderFillRect(Game::renderer, &tranformRectangle);*/
+
 		};
 };
 
